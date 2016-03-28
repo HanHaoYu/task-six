@@ -53,8 +53,9 @@
 	.l-t-picture{
 		width:641px;
 		height:301px;
-		background:#eeeeee;
+		background:url(img/IMG_20160323_130920.jpg)no-repeat 0 center;
 		margin-top:34px;
+		margin-bottom: 20px;
 		float: left;
 		clear:both;
 	}
@@ -136,9 +137,11 @@
 	}
 	/*中间的大段文字*/
 	.center{
-		height: 300px;
+		height: 200px;
 		width: 600px;
+		clear: both;
 	}
+	/*中间的左侧文字*/
 	.c-l{
 		width: 230px;
 		float:left;
@@ -147,6 +150,7 @@
 		font-family:"宋体";
 		margin-right: 16px;
 	}
+	/*中间左侧文字的标题*/
 	.c-l span{
 		font-size:16px;
 		color:#418C59;
@@ -154,6 +158,7 @@
 		text-decoration: underline;
 		font-weight: bold;
 	}
+	/*中间的中间段文字*/
 	.c{
 		width: 180px;
 		float:left;
@@ -164,6 +169,7 @@
 		margin-left: 16px;
 		.filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7;
 	}
+	/*中间的中间段文字的标题*/
 	.c span{
 		font-size:16px;
 		color:#D2994F;
@@ -171,6 +177,7 @@
 		text-decoration: underline;
 		font-weight: bold;
 	}
+	/*中间的右侧的文字*/
 	.c-r{
 		width:120px;
 		float:left;
@@ -180,12 +187,67 @@
 		margin-left: 16px;
 		.filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7;
 	}
+	/*中间段右侧的文字的标题*/
 	.c-r span{
 		font-size:16px;
 		color:#CC7680;
 		font-family: "微软雅黑";
 		text-decoration: underline;
 		font-weight: bold;
+	}
+	/*网页的主题文字*/
+	.theme{
+		width: 415px;
+	}
+	.blueline{
+		background: #11456B;
+		width: 415px;
+		height: 2px;
+	}
+	.r-b{
+		width: 458px;
+		height: 640px;
+		float:right;
+		position: relative;
+		top: -170px;
+	}
+	.r-b-picture{
+		width: 458px;
+		height: 275px;
+		background: url(img/IMG_20160325_153728.jpg)no-repeat 0 center;
+	}
+	.black{
+		width: 458px;
+		height: 61px;
+		background-color: rgba(0,0,0,0.3);
+		position: relative;
+		top: 214px;
+	}
+	.greenline{
+		width: 3px;
+		height: 44px;
+		background:#72b16a;
+		position:relative;
+		top:10px;
+		left: 40px;
+	}
+	.r-b-word{
+		background: #eeedd6;
+		width:459px;
+		height: 340px;
+		margin-top: 40px;
+	}
+	.r-b-red{
+		width:260px;
+		height: 160px;
+		background: #D45D5C;
+		margin-top: 58px;
+	}
+	.l-b{
+		width: 415px;
+		height: 450px;
+		background: #eeeeee;
+		margin-top: 35px;
 	}
 	</style>
 </head>
@@ -235,22 +297,92 @@
 			</div>
 
 			 <div class="center">
+			 <!-- 中间段的文字 -->
 			 <div class="c-l">
+			 <!-- 中间段左侧的文字 -->
 			 <p><span>What</span></br></br>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
 			 </p>
 			 </div>
 			 <div class="c">
+			 <!-- 中间段的中间的文字 -->
 			 	<p>
 			 		<span>When</span></br></br>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
 			 	</p>
 			 </div>
 
 			 <div class="c-r">
+			 <!-- 中间的右侧段的文字 -->
 				 <p><span>How</span></br></br>前端前端前端前端前端前端前端前端前端前端前端前端前</br></br>What- - - - - -<span style="font-size: 12px;color: #CD4A48;font-family: "微软雅黑";"><em>40%</em></span></br></br>What- - - - - -<span style="font-size: 12px;color: #CD4A48;font-family: "微软雅黑";"><em>30%</em></span></br></br>What- - - - - -<span style="font-size: 12px;color: #CD4A48;font-family: "微软雅黑";"><em>30%</em></span>
 				 </p>
 			 </div>
 
 			 </div>
+
+			 <div class="theme">
+			 <!-- 网页的主题文字 -->
+			 <p>
+			 <span style="font-size:72px;color:#F5E327; font-family: '黑体';font-weight:bold; "><em>THE</em></span> <span style="font-size:42px;color: #11456B;font-family: '黑体'; font-weight: bold;">&nbspTECHNOLOGE OF FRONT</span> <span style="font-size: 33px;color:#11456B; font-family: '黑体'; font-weight: bold;"></br>前端技术领域</span>
+			 </p>
+			 </div>
+
+			 <div class="blueline">
+			 	<!-- 蓝色分割线 -->
+			 </div>
+				 <div class="r-b">
+					 <div class="r-b-picture">
+					 	<!-- 右侧的图片 -->
+					 	<div class="black">
+					 		<!-- 下方的黑色半透明框 -->
+					 		<div class="greenline">
+					 			<!-- 绿色的竖线 -->
+					 		</div>
+
+					 		<div  style="line-height:61px;top:-40px;position:relative;left:60px;">
+					 			<span style="font-size: 26px;font-family:'微软雅黑';color:#ffffff;">前端技术</span> <span style="font-size:12px;color:#72B16A;font-family:'微软雅黑';"><em>前端技术前端技术</em></span>
+					 		</div>
+					 	</div>
+					 </div>
+
+					 <div class="r-b-word">
+					 	<!-- 右下边的的字体 -->
+					 	<ul></br></br>
+					 		<li><span style="font-size:16px;color: #5a5b5b;font-family: '宋体';text-align: left;">前端前端前端前端前端前端</span>...................<em><span style="font-size: 12px;font-family: '宋体';text-align: right;">前端</span></em></li></br>
+					 		<li><span style="font-size:16px;color: #5a5b5b;font-family: '宋体';text-align: left;">前端前端前端前端</span>.........................<em><span style="font-size: 12px;font-family: '宋体';text-align: right;">前端前</span></em></li></br>
+					 		<li><span style="font-size:16px;color: #5a5b5b;font-family: '宋体';text-align: left;">前端前端前端前端前端前端</span>..................<em><span style="font-size: 12px;font-family: '宋体';text-align: right;">前端</span></em></li>
+					 	</ul>
+					 	<div class="r-b-red">
+					 		<!-- 红色框 -->
+					 		<span style="color:#ffffff;font-size:110px;position:relative;top: 12px;left: 12px;font-family:'微软雅黑';">0</span>
+					 		<div style="width:2px;height:86px;background:#ffffff;position:relative;top:-100px;left:85px;"></div>
+					 		<span style="color:#ffffff;position:relative;top:-180px;left:90px;"><em><span style="font-size:21px;font-family:'黑体';">ONE&nbspTWO<br>THREE&nbspFORE&nbspFIVE</span></em><br><span style="font-size:12px;font-family: '黑体';">hello&nbspworld&nbsphello&nbspworld<br>hello&nbspworld</span></span>
+					 	</div>
+					 	<div style="width:170px;height:160px;position:relative;top:-150px;left: 270px">
+					 		<!-- 红框旁边的内容  -->
+					 		<span style="font-size: 72px;color: #d45d5c;font-family: '黑体';position:absolute;left:-40px;top:-10px;float: left;">“</span>
+					 		<span style="font-size: 72px;color: #d45d5c;font-family: '黑体';position:absolute;left:130px;top:90px;">”</span>
+					 		<em><span style="position:relative;font-size: 14px;color: #5a5b5b;font-family: '黑体'; position: relative;top: 8px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspworld hello world<br> hello world hello world hello world hello world hello world hello world hello world hello world hello world</span></em>
+					 	</div>
+					 </div>
+			    </div>
+			<div class="l-b">
+			<!-- 左下角 -->
+			<span style="font-size: 70px;color: #f5e327;font-family: '微软雅黑';float:left;">前</span>
+				<div style="font-size: 12px;color:#767777;font-family:'宋体';">
+				</br>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前
+				</div>
+
+				<div style="height:280px;width:180px;position:relative;margin-top: 10px;margin-left:20px;margin-bottom:10px;float:right;background:url(img/IMG_20160325_161500.jpg)no-repeat 0 center;">
+					<!-- 左下角图片 -->
+				</div>
+				<span style="font-size: 12px;color:#767777;font-family:'宋体';">
+					前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前<br>&nbsp&nbsp端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+				</span>
+			</div>
+
+			<div style="height:2px;width:892px;background: #938e8c;position:relative;top:30px;">
+				<!-- 页面的最下边分割线 -->
+			</div>
+			<span style="font-size: 12px;font-family: '黑体';color:#d45d5c;position:relative;left: 800px;top:30px;">ief.baidu.com</span>
 		</div>
 	</div>
 </body>
